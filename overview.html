@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="overview-style.css" media="screen">
+    
+    <link rel="stylesheet" href="homepage-index.html">
+</head>
+
+<body>
+    <header>
+        
+        <div class="header">
+            <div class="header-Left">
+                <div class="dropdown">
+                    <a class="logo" href="#">jambert pitik</a>
+                    <div class="dropdown-content">
+                        <a href="login.html">logout</a>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="header-Right">
+            <a href="homepage-index.html">Home</a>
+            <a class="active" href="Overview.html">Overview</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          
+        </div>
+    </div>
+    </header>
+    <div class="cover">
+        <h1>Welcome! <p>I am jambert, i am passionate about capturing the beauty of the natural world through photography.
+        </p></h1> <br>
+    </div>
+
+    <div class="covercontent">
+        <div class="animationStyle">
+            <img src="https://media1.tenor.com/m/9KNxAyHb1uoAAAAd/smile-hello.gif" alt="Animated GIF" />
+        </div>
+    </div>    
+
+    <p><i>“I never have taken a picture I’ve intended. They’re always better or worse.”– Diane Arbus</i></p>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/c0/4c/1d/c04c1dbe455f38e69a110d4fd321ca72.jpg" alt="Description 1">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/ad/30/90/ad3090e17eb7ecd3697906a3597b1845.jpg" alt="Description 2">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/70/6a/94/706a94b62285d3945f4bc2ef6ccac314.jpg" alt="Description 3">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/736x/c8/af/e1/c8afe167c82d438afd9a813be564934c.jpg" alt="Description 4">
+        </div>
+    </div>
+    <br>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://i.pinimg.com/736x/c7/e9/31/c7e931cf841f221b212b8b5a88c30f38.jpg" alt="Description 4">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/99/87/ea/9987eaca9240a1b33084f92ae8b3dc28.jpg" alt="Description 5">
+        </div>
+        <div class="image-container">
+            <img src="https://i.pinimg.com/564x/4d/f6/b2/4df6b284faf7244b3b2811aa425c4f95.jpg" alt="Description 6">
+        </div>
+    </div>  
+    
+    <br>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://bukidnon.gov.ph/wp-content/gallery/kaamulan-tree-park/0kg.jpg" alt="Description 4">
+        </div>
+        <div class="image-container">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/a0/79/97/alalum-falls.jpg?w=1800&h=1000&s=1" alt="Description 5">
+        </div>
+    </div> 
+
+    <br>
+    <p><i>“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”
+        — Ansel Adams</i></p>
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://thewanderingitinerant.wordpress.com/wp-content/uploads/2017/09/lrm_export_20170909_192758_wm.jpg" alt="Description 4">
+        </div>
+        <div class="image-container">
+            <img src="https://thewanderingitinerant.wordpress.com/wp-content/uploads/2017/09/lrm_export_20170909_191418_wm.jpg" alt="Description 4">
+        </div>
+        <div class="image-container">
+            <img src="https://thewanderingitinerant.wordpress.com/wp-content/uploads/2017/09/lrm_export_20170909_191557_wm.jpg" alt="Description 4">
+        </div>
+        <div class="image-container">
+            <img src="https://thewanderingitinerant.wordpress.com/wp-content/uploads/2017/09/lrm_export_20170909_193124.jpg?w=1024&h=576" alt="Description 4">
+        </div>
+    </div> 
+
+    
+
+   
+
+<script>
+        // Check if user is logged in
+        if (!localStorage.getItem('loggedIn')) {
+            window.location.href = "login.html";
+        }
+
+        document.getElementById('logout').addEventListener('click', function() {
+            localStorage.removeItem('loggedIn');
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>

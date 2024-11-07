@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="about-style.css" media="screen">
+    
+    <link rel="stylesheet" href="about-style.css">
+</head>
+
+<body>
+    <header>
+        
+        <div class="header">
+            <div class="header-Left">
+                <div class="dropdown">
+                    <a class="logo" href="#">jambert pitik</a>
+                    <div class="dropdown-content">
+                        <a href="login.html">logout</a>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="header-Right">
+            <a href="homepage-index.html">Home</a>
+            <a href="overview.html">Overview</a>
+            <a class="active" href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+       
+        </div>
+    </div>
+
+    </header>
+    <br>
+   
+    <div class="style">
+        <div class="parent">
+            <div class="image"> <br>
+                <i> <p style="font-family: 'Times New Roman', Times, serif;">"-“The photographer does the world a great disservice when he leaves his camera at home.”"</p></i><br>
+                <img src="https://scontent.fmnl9-1.fna.fbcdn.net/v/t39.30808-6/458097810_368676572962261_5810429729656587368_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHlub_CuD1oNelqzuVCAxvo02k5fG0q66PTaTl8bSrro52IPJXHp7U9-9atOopSm_RXO4hS7JqhR_SaW-lOHDST&_nc_ohc=_iR1jFa6du8Q7kNvgFKSnkH&_nc_zt=23&_nc_ht=scontent.fmnl9-1.fna&_nc_gid=A8iwm6YnFXrh0Q-jzNK853V&oh=00_AYBrlgzI7dSrD4SXX-gy6dqZ5MZDHIlAbt4Unc6emEP65g&oe=6732748B" alt="my image"> <br>
+                <p>Hey, I'm <b>Jamberto </b>, an IT student at NBSC and a best photographer in the world.</p>
+                <p>Explore my web, discover everything, and let me help you create memories through this beautiful images! </p> <br>
+                <p>-“The photographer does the world a great disservice when he leaves his camera at home.”</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Check if user is logged in
+        if (!localStorage.getItem('loggedIn')) {
+            window.location.href = "login.html";
+        }
+
+        document.getElementById('logout').addEventListener('click', function() {
+            localStorage.removeItem('loggedIn');
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="homepage-index.html" media="screen">
+    
+    <link rel="stylesheet" href="homepage-style.css">
+</head>
+
+<body>
+    <header>
+        
+        <div class="header">
+            <div class="header-Left">
+                <div class="dropdown">
+                    <a class="logo" href="#">jambert pitik</a>
+                    <div class="dropdown-content">
+                        <a href="login.html">logout</a>
+                    </div>
+                </div>
+            </div>
+                
+        <div class="header-Right">
+            <a class="active" href="homepage-index.html">Home</a>
+            <a href="overview.html">Overview</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+          
+        </div>
+    </div>
+
+    </header>
+     
+    <div class="cover">
+        <h1>Welcome! <p>I am jambert, i am passionate about capturing the beauty of the natural world through photography.
+            .</p></h1> <br>
+    </div>
+    
+   
+        <div class="typing-container">
+            <span class="dot red">.</span>
+            <span class="dot blue">.</span>
+            <span class="dot green">.</span>
+            <span class="dot yellow">.</span>
+            <span class="dot purple">.</span>
+            <span class="dot orange">.</span>
+            <span class="dot pink">.</span>
+            <span class="dot cyan">.</span>
+            <span class="dot teal">.</span>
+            <span class="dot coral">.</span>
+            <span class="dot gold">.</span>
+            <span class="dot violet">.</span>
+        </div>
+    <br>
+    <br>
+    <div class="cont">
+        <div class="card">
+            <img src="https://ik.imagekit.io/tvlk/blog/2024/07/o1gvSj85-image-1024x576.png?tr=dpr-2,w-675">
+            <div class="title">Mount Kitanglad Hiking Trails</div>
+        </div>
+        <div class="card">
+            <img src="https://bukidnon.gov.ph/wp-content/gallery/lake-apo/Lake-Apo-Bukidnon-Travel-Guide-4.JPG">
+            <div class="title">Lake Apo</div>
+        </div>
+        <div class="card">
+            <img src="https://bukidnon.gov.ph/wp-content/gallery/ranch/campsite-194-communal-ranch-ac73750598e2feb90b235a91acc8a3e1.jpg">
+            <div class="title">Communal Ranch</div>
+        </div>
+        <div class="card">
+            <img src="https://campsites.ph/uploads/images/campsite-200-mt-kulago-5c6147bbc79b227211769fa56fa51b72.jpg">
+            <div class="title">Mt. Kulago</div>
+        </div>
+    </div>
+     
+    <div class="home-container">       
+            <h2>Nindot ba? maona ang bukidnon</h2>
+            <p>This is all about capturing stunning moments through photography.</p> 
+            <p><b>Feel free to browse!</b></p>
+    </div>
+
+    <p class="p1" >
+        <i>When you photograph people in color, you photograph their clothes. But when you photograph people in black and white, you photograph their souls!” – Ted Grant </i> 
+     </p>
+
+    <div class="gallery">
+        <div class="image-container">
+            <img src="https://lh4.googleusercontent.com/-v1sBL5M3eliGraWwH1BGBJhrGYel95oJ8lbDoofFRjaeLtpYRF-caWRPZuUpg88ySN50YNorMB6zj4laLm7kS34ghJpsKuGY6ywD0IcTp8Isjxhl9ISUqLt7l4pr2Mq2-6OX4oC" alt="This is a painting by Caspar David Friedrich. It is, in my judgment, coherent (it is, being a painting and a masterwork, extremely well composed and balanced), complex (there are trees, bushes, meadows, ponds, mountains, clouds) and fairly mysterious (what lies behind the trees and beyond the mountains?) but not very legible (there is no clear path, though neither does it seem easy to get lost).">
+        </div>
+        <div class="image-container">
+            <img src="https://lh5.googleusercontent.com/ScJufT2ZNQLXK4-qGY-TpjwsPGK8b-ARtBE0ukh4zEoClMslUEDBoIm4f5cY1PM7BbSm_g2JFOFqoZIt2AdFxTm96kobqD7uuIqTyn83X109RYVUQAnGCe7VyRn9uoZFVIoFf8aC" alt="Here is a different painting, by John Constable. This one, unlike the previous, does, with the road on the right and the bridge on the left, and with the generally familiar and tamed features, seem legible. It also seems coherent (it is balanced and harmonious) and complex (there are many little things going on) but not containing a whole lot of mystery (except perhaps to ask us what happens behind the trees and in the pinkish-orange house).">
+        </div>
+        <div class="image-container">
+            <img src="https://lh5.googleusercontent.com/-T_ck3MuDJLt0wAzu04SBFG12NTRvvyaGJGUnCoJNiSSpc8NVpTbdZAgJ7wfoz5Coa_MmTMmDbY85y71W0WRNPyKmUUMtmGbLT8EYI-VPfCd5g39Czpa0rFoVimONZowqQkHisk_" alt="Description 3">
+        </div>
+        
+    
+    
+   
+        
+    </div>    
+    <hr class="gallery-line">
+    <script>
+        // Check if user is logged in
+        if (!localStorage.getItem('loggedIn')) {
+            window.location.href = "login.html";
+        }
+
+        document.getElementById('logout').addEventListener('click', function() {
+            localStorage.removeItem('loggedIn');
+            window.location.href = "login.html";
+        });
+    </script>
+</body>
+<footer>
+    <div class="footer">
+      © Copyright <strong><span>Jambert</span></strong> | no kaperayt please      </div>
+</footer>
+</html>
