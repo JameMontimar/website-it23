@@ -121,33 +121,6 @@ body {
     animation: blink 0.5s infinite step-start;
     margin: 0 3px; /* Space between dots */
   }
-  
-  .dot.red { color: red; }
-  .dot.blue { color: blue; }
-  .dot.green { color: green; }
-  .dot.yellow { color: yellow; }
-  .dot.purple { color: purple; }
-  .dot.orange { color: orange; }
-  .dot.pink { color: pink; }
-  .dot.cyan { color: cyan; }
-  .dot.teal { color: teal; }
-  .dot.coral { color: coral; }
-  .dot.gold { color: gold; }
-  .dot.violet { color: violet; }
-  
-  .dot:nth-child(1) { animation-delay: 0s; }
-  .dot:nth-child(2) { animation-delay: 0.2s; }
-  .dot:nth-child(3) { animation-delay: 0.4s; }
-  .dot:nth-child(4) { animation-delay: 0.6s; }
-  .dot:nth-child(5) { animation-delay: 0.8s; }
-  .dot:nth-child(6) { animation-delay: 1s; }
-  .dot:nth-child(7) { animation-delay: 1.2s; }
-  .dot:nth-child(8) { animation-delay: 1.4s; }
-  .dot:nth-child(9) { animation-delay: 1.6s; }    
-  .dot:nth-child(10) { animation-delay: 1.8s; }
-  .dot:nth-child(11) { animation-delay: 2s; }
-  .dot:nth-child(12) { animation-delay: 2.2s; }
-  
   @keyframes blink {                                  
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
